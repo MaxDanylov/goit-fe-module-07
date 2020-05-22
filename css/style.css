@@ -7,8 +7,19 @@ a {
   display: block;
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
 button {
   outline: none;
+}
+.conteiner {
+  width: 940px;
+  margin: 0 auto;
 }
 * {
   outline: 1px solid aquamarine;
@@ -78,13 +89,9 @@ header {
   min-height: 120px;
 }
 .navigation {
-  width: 932px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-}
-.navigation-logo {
-  margin: 0;
 }
 .navigation-logo a {
   font-family: "Meie Script";
@@ -116,5 +123,73 @@ header {
 }
 /* MAIN */
 .features {
-  width: 944px;
+  padding: 70px 0;
+}
+.features-head {
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+.features-description {
+  text-align: center;
+  margin-bottom: 38px;
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: #777777;
+}
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+.features-list-item {
+  width: 290px;
+  padding: 40px 8px;
+}
+.features-list-item-head {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: var(--main-font);
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+.features-list-item::before {
+  content: "";
+  display: block;
+  margin: 0 auto 24px;
+  width: 72px;
+  height: 72px;
+  border: 3px solid var(--decorative-color);
+  border-radius: 50%;
+  background: center no-repeat;
+}
+.basket::before {
+  content: "";
+  background-image: url(../icon/basket.png);
+}
+.laptop::before {
+  content: "";
+  background-image: url(../icon/laptop.png);
+}
+.locked::before {
+  content: "";
+  background-image: url(../icon/locked.png);
+}
+.features-list-item-description {
+  text-align: center;
+  font-family: var(--secondery-font);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #777777;
+  letter-spacing: -0.025em;
+}
+.contact {
+  width: 1400px;
+  background-color: var(--main-color);
 }
