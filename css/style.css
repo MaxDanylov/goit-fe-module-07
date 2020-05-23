@@ -259,13 +259,14 @@ header {
   letter-spacing: -0.025em;
   color: #bbbbbb;
 }
+/* VALID-INVALID */
 .contact-inner-form-wrapper-list-item-input:focus:valid:not(:placeholder-shown),
 .contact-inner-form-wrapper-list-item-textarea:focus:valid:not(:placeholder-shown) {
   border: 2px solid #3ffc35;
 }
 .contact-inner-form-wrapper-list-item-input:focus:invalid:not(:placeholder-shown),
 .contact-inner-form-wrapper-list-item-textarea:focus:invalid:not(:placeholder-shown) {
-  border-color: 2px solid #fe8e35;
+  border: 2px solid #fe8e35;
 }
 .contact-inner-form-button {
   display: block;
