@@ -28,40 +28,88 @@
         <p class="features-description">
           Proin iaculis purus consequat sem cure.
         </p>
-        <div class="features-list-wrapper">
-          <ul class="features-list">
-            <li class="features-list-item basket">
-              <h3 class="features-list-item-head">E-Commerce</h3>
-              <p class="features-list-item-description">
-                Proin iaculis purus consequat sem cure digni ssim. Donec
-                porttitora entum suscipit aenean rhoncus posuere odio in
-                tincidunt.
-              </p>
-            </li>
-            <li class="features-list-item laptop">
-              <h3 class="features-list-item-head">Responsive Web</h3>
-              <p class="features-list-item-description">
-                Proin iaculis purus consequat sem cure digni ssim. Donec
-                porttitora entum suscipit aenean rhoncus posuere odio in
-                tincidunt.
-              </p>
-            </li>
-            <li class="features-list-item locked">
-              <h3 class="features-list-item-head">Web Security</h3>
-              <p class="features-list-item-description">
-                Proin iaculis purus consequat sem cure digni ssim. Donec
-                porttitora entum suscipit aenean rhoncus posuere odio in
-                tincidunt.
-              </p>
-            </li>
-          </ul>
-        </div>
+        <ul class="features-list">
+          <li class="features-list-item basket">
+            <h3 class="features-list-item-head">E-Commerce</h3>
+            <p class="features-list-item-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="features-list-item laptop">
+            <h3 class="features-list-item-head">Responsive Web</h3>
+            <p class="features-list-item-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="features-list-item locked">
+            <h3 class="features-list-item-head">Web Security</h3>
+            <p class="features-list-item-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+        </ul>
       </section>
+      <!-- CONTACT US -->
       <section class="contact">
-        <h2 class="contact-head">contact us</h2>
-        <p class="contact-description">
-          Proin iaculis purus consequat sem cure.
-        </p>
+        <div class="cotact-inner conteiner">
+          <h2 class="contact-inner-head">contact us</h2>
+          <p class="contact-inner-description">
+            Proin iaculis purus consequat sem cure.
+          </p>
+          <!-- FORM -->
+          <form action="#" method="GET" class="contact-inner-form">
+            <div class="contact-inner-form-wrapper">
+              <ul class="contact-inner-form-wrapper-list">
+                <li class="contact-inner-form-wrapper-list-item">
+                  <input
+                    class="contact-inner-form-wrapper-list-item-input"
+                    name="user-name"
+                    type="text"
+                    required
+                    placeholder="your name *"
+                    minlength="2"
+                    maxlength="30"
+                  />
+                </li>
+                <li class="contact-inner-form-wrapper-list-item">
+                  <input
+                    class="contact-inner-form-wrapper-list-item-input"
+                    name="user-email"
+                    type="email"
+                    required
+                    placeholder="your e-mail *"
+                  />
+                </li>
+                <li class="contact-inner-form-wrapper-list-item">
+                  <input
+                    class="contact-inner-form-wrapper-list-item-input"
+                    name="subject"
+                    type="text"
+                    placeholder="subject"
+                    maxlength="30"
+                  />
+                </li>
+              </ul>
+              <textarea
+                class="contact-inner-form-wrapper-list-item-textarea"
+                name="user-message"
+                required
+                placeholder="your message *"
+                minlength="2"
+                maxlength="200"
+              ></textarea>
+            </div>
+            <button type="submit" class="contact-inner-form-button">
+              send message
+            </button>
+          </form>
+        </div>
       </section>
     </main>
   </body>
