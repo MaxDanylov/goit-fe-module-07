@@ -24,10 +24,6 @@ textarea {
   width: 940px;
   margin: 0 auto;
 }
-/* * {
-  outline: 1px solid aquamarine;
-} */
-
 /* meie-script-regular - latin */
 @font-face {
   font-family: "Meie Script";
@@ -84,7 +80,6 @@ textarea {
   --main-font: "Montserrat", "Arial", sans-serif;
   --secondery-font: "Roboto Slab", "Times New Roman", Serif;
 }
-/* HEADER */
 header {
   display: flex;
   justify-content: center;
@@ -124,7 +119,6 @@ header {
 .navigation-menu-item a:focus {
   color: var(--decorative-color);
 }
-/* MAIN */
 .features {
   padding: 70px 0;
 }
@@ -192,7 +186,6 @@ header {
   color: #777777;
   letter-spacing: -0.025em;
 }
-/* CONTACT */
 .contact {
   width: 100%;
   padding: 106px 0;
@@ -227,7 +220,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-/* FORM */
 .contact-inner-form-wrapper-list-item-input,
 .contact-inner-form-wrapper-list-item-textarea {
   margin-bottom: 28px;
@@ -259,7 +251,6 @@ header {
   letter-spacing: -0.025em;
   color: #bbbbbb;
 }
-/* VALID-INVALID */
 .contact-inner-form-wrapper-list-item-input:focus:valid:not(:placeholder-shown),
 .contact-inner-form-wrapper-list-item-textarea:focus:valid:not(:placeholder-shown) {
   border: 2px solid #3ffc35;
