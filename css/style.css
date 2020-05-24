@@ -219,10 +219,13 @@ header {
 .contact-inner-form-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 28px;
+}
+.contact-inner-form-wrapper-list-item:not(:last-of-type) {
+  margin-bottom: 28px;
 }
 .contact-inner-form-wrapper-list-item-input,
 .contact-inner-form-wrapper-list-item-textarea {
-  margin-bottom: 28px;
   border: 1px solid #cccccc;
   border-radius: 2px;
   font-family: var(--secondery-font);
@@ -231,6 +234,7 @@ header {
   line-height: 1.6;
   color: #777777;
 }
+
 .contact-inner-form-wrapper-list-item-input {
   width: 456px;
   height: 52px;
